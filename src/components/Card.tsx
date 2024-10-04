@@ -19,7 +19,7 @@ export default function Card({ id, name, description, img, price }: products) {
           </h5>
         </a>
         <p className="mb-3 font-normal text-gray-500">{description}</p>
-        <p className="font-bold text-black">${price}</p>
+        {/* <p className="font-bold text-black">${price}</p> */}
 
         <div className="flex items-center justify-between mt-2 gap-2">
           <a

@@ -129,7 +129,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "16",
+      id: "6",
       name: "Lápiz",
       description:
         "Lápiz de grafito de alta calidad, ideal para escribir y dibujar.",
@@ -152,7 +152,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "17",
+      id: "7",
       name: "Cuaderno",
       description:
         "Cuaderno de 100 hojas rayado, perfecto para tomar notas y hacer tareas.",
@@ -173,7 +173,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "18",
+      id: "8",
       name: "Sacapuntas",
       description:
         "Sacapuntas de plástico con depósito para recolectar virutas.",
@@ -195,10 +195,142 @@ import { useParams } from "react-router-dom";
         },
       ],
     },
+    {
+      id: "9",
+      name: "Papel Construcción",
+      description:
+        "Papel de construcción resistente para proyectos artísticos.",
+      imgs: [
+        "https://m.media-amazon.com/images/I/71iXtRd9wfL._AC_UF894,1000_QL80_.jpg",
+      ],
+      price: 2.49,
+      category_id: 1,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Papel de construcción resistente para proyectos artísticos.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Paquete de 10 hojas, colores surtidos.",
+        },
+      ],
+    },
+    {
+      id: "10",
+      name: "Foami",
+      description: "Foami en varios colores para uso escolar y manualidades.",
+      imgs: [
+        "https://almacen.do/wp-content/uploads/2021/06/Foami-Bambary-Front-1.jpg",
+      ],
+      price: 0.99,
+      category_id: 1,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Foami en varios colores para uso escolar y manualidades.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Tamaño carta, colores surtidos.",
+        },
+      ],
+    },
+    {
+      id: "11",
+      name: "Cartulina",
+      description:
+        "Cartulina resistente en varios colores para proyectos escolares.",
+      imgs: [
+        "https://i0.wp.com/metropolis.com.do/wp-content/uploads/2019/06/cartulina-vivaldi-colores-papeleria-metropolis.jpg",
+      ],
+      price: 1.49,
+      category_id: 1,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Cartulina resistente en varios colores para proyectos escolares.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Tamaño estándar, colores surtidos.",
+        },
+      ],
+    },
+    {
+      id: "12",
+      name: "Crayones",
+      description: "Set de crayones en colores vibrantes para colorear.",
+      imgs: [
+        "https://d2j6dbq0eux0bg.cloudfront.net/images/15233581/2367251958.jpg",
+      ],
+      price: 2.99,
+      category_id: 1,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Set de crayones en colores vibrantes para colorear.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Paquete de 12 crayones, colores surtidos.",
+        },
+      ],
+    },
+    {
+      id: "13",
+      name: "Pizarras",
+      description: "Pizarra blanca ideal para enseñanza escolar.",
+      imgs: [
+        "https://lamirotil.com/1323-large_default/pizarra-blanca-con-marco-y-repisa-de-madera-serie-basic-board-infantil.jpg",
+      ],
+      price: 10.99,
+      category_id: 1,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Pizarra blanca ideal para enseñanza escolar.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Incluye marcador y borrador.",
+        },
+      ],
+    },
+    {
+      id: "14",
+      name: "Hoja Maquinilla",
+      description: "Paquete de hojas maquinilla para impresión.",
+      imgs: ["https://cdn.asi.do/z6nc76vgocoj5ao0ud9ca5hd4xao"],
+      price: 4.99,
+      category_id: 1,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Paquete de hojas maquinilla para impresión.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Paquete de 100 hojas, tamaño A4.",
+        },
+      ],
+    },
 
     // Ferretería - Category ID: 2
     {
-      id: "6",
+      id: "15",
       name: "Taladro Inalámbrico",
       description:
         "Potente taladro inalámbrico de 20V para trabajos de bricolaje y construcción.",
@@ -221,7 +353,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "7",
+      id: "16",
       name: "Sierra Circular",
       description:
         "Sierra circular de alta precisión para cortes en madera y otros materiales.",
@@ -244,7 +376,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "8",
+      id: "17",
       name: "Caja de Herramientas 150 Piezas",
       description:
         "Completo set de herramientas de 150 piezas, ideal para trabajos de reparación en el hogar.",
@@ -265,7 +397,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "9",
+      id: "18",
       name: "Pistola de Calor",
       description:
         "Pistola de calor versátil para secar pinturas, soldar plásticos y más.",
@@ -288,7 +420,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "10",
+      id: "19",
       name: "Lijadora Orbital",
       description:
         "Lijadora orbital eléctrica para acabados suaves y precisos en madera y metal.",
@@ -308,10 +440,166 @@ import { useParams } from "react-router-dom";
         },
       ],
     },
+    {
+      id: "20",
+      name: "Materiales de Plomería",
+      description: "Varios materiales esenciales para trabajos de plomería.",
+      imgs: [
+        "https://ferreteriascasper.com/images/thumbs/0000014_tuberia-y-conexiones_450.png",
+      ],
+      price: 45.0,
+      category_id: 2,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Materiales esenciales para trabajos de plomería, incluyendo tubos, accesorios y más.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Incluye PVC, cobre y accesorios para instalación.",
+        },
+      ],
+    },
+    {
+      id: "21",
+      name: "Cables Eléctricos",
+      description:
+        "Cables eléctricos de alta calidad, ideales para instalaciones seguras.",
+      imgs: [
+        "https://cablesfb.com/wp-content/uploads/elementor/thumbs/NOTA2-q34qcwhzbb3zmpaelqxm0ql7g510mv0d92vql0y3rc.jpeg",
+      ],
+      price: 30.5,
+      category_id: 2,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Cables eléctricos de diferentes calibres para instalaciones eléctricas.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Calibres disponibles: 14, 12, 10. Longitudes de 50m y 100m.",
+        },
+      ],
+    },
+    {
+      id: "22",
+      name: "Escaleras",
+      description:
+        "Escalera de aluminio ligera y resistente, ideal para trabajos en altura.",
+      imgs: ["https://ochoa.com.do/media/product/04-63-33581.jpg"],
+      price: 80.0,
+      category_id: 2,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Escalera de aluminio, fácil de transportar y almacenar.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Altura: 2.5 m, capacidad: 150 kg, peso: 5 kg.",
+        },
+      ],
+    },
+    {
+      id: "23",
+      name: "Picos",
+      description:
+        "Pico de acero forjado, perfecto para cavar y realizar trabajos de jardinería.",
+      imgs: ["https://chayto.com.ar/fotos/pico-punta-y-pala.jpg"],
+      price: 15.99,
+      category_id: 2,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Pico de acero forjado, ideal para cavar en terrenos duros.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Longitud: 1.2 m, peso: 2 kg.",
+        },
+      ],
+    },
+    {
+      id: "24",
+      name: "Cascos de Seguridad",
+      description:
+        "Casco de seguridad, ideal para proteger la cabeza durante trabajos de construcción.",
+      imgs: [
+        "https://proinvalsafety.com/wp-content/uploads/2022/06/cascos-de-colores.jpg",
+      ],
+      price: 25.0,
+      category_id: 2,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Casco de seguridad ligero y resistente, cumple con normas de seguridad.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Material: polietileno, ajuste: tamaño ajustable.",
+        },
+      ],
+    },
+    {
+      id: "25",
+      name: "Cemento",
+      description:
+        "Cemento Portland de alta resistencia, ideal para construcción y reparaciones.",
+      imgs: [
+        "https://http2.mlstatic.com/D_NQ_NP_924741-MEC72385247057_102023-O.webp",
+      ],
+      price: 10.5,
+      category_id: 2,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Cemento Portland, utilizado para construcción general.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Presentación: bolsa de 50 kg.",
+        },
+      ],
+    },
+    {
+      id: "26",
+      name: "Pegatod",
+      description:
+        "Pegamento fuerte y duradero, adecuado para diversos materiales.",
+      imgs: [
+        "https://assets.gomarket.com.do/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd2hrR2c9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--58f15e53c4e20887a0aba8be470e5e7e3e8562e4/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2QzNKbGMybDZaVWtpRGpFd01EQjRNVEF3TUFZN0JsUTZDMlY0ZEdWdWRFQUhPZ3huY21GMmFYUjVTU0lMUTJWdWRHVnlCanNHVkRvSlkzSnZjRWtpRWpFd01EQjRNVEF3TUNzd0t6QUdPd1pVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--a9b079b0a724a66cf318e59ad9752536efd1d6e4/PEGATOD.png",
+      ],
+      price: 5.75,
+      category_id: 2,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Pegamento multipropósito ideal para manualidades y reparaciones.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Contenido: 100 ml.",
+        },
+      ],
+    },
 
     // Electrónica - Category ID: 3
     {
-      id: "11",
+      id: "27",
       name: "Auriculares Inalámbricos",
       description:
         "Auriculares inalámbricos con cancelación de ruido y hasta 20 horas de batería.",
@@ -334,7 +622,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "12",
+      id: "28",
       name: "Cámara de Seguridad",
       description:
         "Cámara de seguridad WiFi con visión nocturna y detección de movimiento.",
@@ -357,7 +645,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "13",
+      id: "29",
       name: "Smartwatch",
       description:
         "Smartwatch con monitoreo de frecuencia cardíaca y notificaciones inteligentes.",
@@ -378,7 +666,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "14",
+      id: "30",
       name: "Proyector Mini",
       description:
         "Proyector mini portátil con resolución HD y conectividad WiFi.",
@@ -401,7 +689,7 @@ import { useParams } from "react-router-dom";
       ],
     },
     {
-      id: "15",
+      id: "31",
       name: "Power Bank",
       description:
         "Power bank de 10000mAh con carga rápida para dispositivos móviles.",
@@ -420,6 +708,142 @@ import { useParams } from "react-router-dom";
           label: "Especificaciones",
           value: "specs",
           desc: "Salidas: 2 USB, compatible con carga rápida QC 3.0.",
+        },
+      ],
+    },
+    {
+      id: "32",
+      name: "Laptop OMEN",
+      description:
+        "Laptops de alto rendimiento, ideales para trabajo y entretenimiento.",
+      imgs: [
+        "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08523987.png",
+      ],
+      price: 599.99,
+      category_id: 3,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Laptops potentes con procesadores de última generación.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: 'Pantalla: 15.6", RAM: 16GB, Almacenamiento: 512GB SSD.',
+        },
+      ],
+    },
+    {
+      id: "33",
+      name: "Teclados gaming",
+      description:
+        "Teclados mecánicos y de membrana, perfectos para todo tipo de usuarios.",
+      imgs: [
+        "https://deepgaming.es/wp-content/uploads/2022/11/DG-TEC65-RGB-deepgaming-teclados-ratones-teclado-mini-tm065-01.jpg",
+      ],
+      price: 49.99,
+      category_id: 3,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Teclados ergonómicos y resistentes, ideales para uso prolongado.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Tipo: mecánico, retroiluminación: RGB.",
+        },
+      ],
+    },
+    {
+      id: "34",
+      name: "CPU",
+      description:
+        "Unidades centrales de procesamiento, esenciales para cualquier configuración de PC.",
+      imgs: ["https://m.media-amazon.com/images/I/51saxT83YWL.jpg"],
+      price: 199.99,
+      category_id: 3,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "CPUs de alto rendimiento para gaming y productividad.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Núcleos: 6, Hilos: 12, Velocidad: 3.6 GHz.",
+        },
+      ],
+    },
+    {
+      id: "35",
+      name: "Monitores",
+      description:
+        "Monitores de alta definición para una experiencia visual superior.",
+      imgs: [
+        "https://image.benq.com/is/image/benqco/home-herobanner-m-1?$ResponsivePreset$&fmt=png-alpha",
+      ],
+      price: 249.99,
+      category_id: 3,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Monitores con calidad de imagen nítida y colores vibrantes.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: 'Tamaño: 24", Resolución: 1920x1080.',
+        },
+      ],
+    },
+    {
+      id: "36",
+      name: "UPS",
+      description:
+        "Fuentes de alimentación ininterrumpida para proteger tus dispositivos electrónicos.",
+      imgs: [
+        "https://valdes.com.sv/wp-content/uploads/2022/11/BVX900L-LM-2.jpg",
+      ],
+      price: 89.99,
+      category_id: 3,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "UPS confiables para mantener tu equipo funcionando durante cortes de energía.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Capacidad: 600 VA, tiempo de respaldo: 30 minutos.",
+        },
+      ],
+    },
+    {
+      id: "37",
+      name: "Mouse gaming",
+      description:
+        "Mouse gaming, ergonómicos y precisos, ideales para gaming y uso diario.",
+      imgs: [
+        "https://m.media-amazon.com/images/I/51+E-eoAKBL._AC_UF894,1000_QL80_.jpg",
+      ],
+      price: 29.99,
+      category_id: 3,
+      data: [
+        {
+          label: "Descripción",
+          value: "desc",
+          desc: "Mouse con diseño gaming y botones programables.",
+        },
+        {
+          label: "Especificaciones",
+          value: "specs",
+          desc: "Conexión: inalámbrica, DPI: ajustable hasta 3200.",
         },
       ],
     },

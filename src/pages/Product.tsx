@@ -968,9 +968,9 @@ export default function Product() {
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               />
-              <span className="text-white text-2xl font-bold mb-4">
+              {/* <span className="text-white text-2xl font-bold mb-4">
                 $ {product?.price}
-              </span>
+              </span> */}
 
               <Tabs value="desc">
                 <TabsHeader
